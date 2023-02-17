@@ -21,7 +21,7 @@ datos en un .csv en la carpeta Ejercicio 1 de este repositorio.
 
 ## Consejos Ejercicio 2.
 
-Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.powerbi.com/t5/Data-Stories-Gallery/IT-HELPDESK-DASHBOARD/m-p/3040804">Esta Data Story template de PowerBI</a>. Los imágenes no coincidirán, porque los datos no son iguales.
+Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.powerbi.com/t5/Data-Stories-Gallery/IT-HELPDESK-DASHBOARD/m-p/3040804">este Data Story template de PowerBI</a>. Los imágenes no coincidirán, porque los datos no son iguales.
 
 1. En la carpeta Ejercicio 2 tenéis un archivo .pbix (powerBI) con la plantilla para el reporte preparada.
 
@@ -34,5 +34,14 @@ Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.power
  Lo veremos juntos!
  
  5. Para crear el gráfico de área con tickets cerrados y abiertos hay que crear dos medidas rápidas. 
- Lo veremos junots!
+  a. Closed: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Closed)
+  b. Open: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Open y Closed)
+ 
+ Lo veremos juntos!
 
+Descripción de las tablas:
+
+- Clientes: está formada por Nombre de los usuarios, su jerarquía, país donde trabajan y género
+- Tickets_apertura: ID de los tickets, fecha de apertura, OwnerName = Trabajador encargado, RequestorName = usuario/cliente, País del cliente, 
+             Tipo de petición, Categoría de la ayuda, Status = Cerrado o abierto, Prioridad
+- Tickets_cierre: ID de los tickets, Fecha de Cierre, OwnerName = Trabajador encargado, Status (Cerrado), Satisfacción del cliente, Nº días para cerrar.
