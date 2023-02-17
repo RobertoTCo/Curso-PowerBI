@@ -34,7 +34,9 @@ Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.power
  Lo veremos juntos!
  
  5. Para crear el gráfico de área con tickets cerrados y abiertos hay que crear dos medidas rápidas. 
+ 
   a. Closed: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Closed)
+  
   b. Open: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Open y Closed)
  
  Lo veremos juntos!
