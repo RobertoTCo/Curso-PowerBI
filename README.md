@@ -43,11 +43,7 @@ Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.power
 
 Descripción de las tablas:
 
-- Clientes: está formada por 
-      - Nombre de los usuarioo.
-      - Jerarquía
-      - País donde trabajan
-      - Género
+- Clientes: está formada por Nombre de los usuario, Jerarquía, País donde trabajan, Género
 - Tickets_apertura: ID de los tickets, fecha de apertura, OwnerName = Trabajador encargado, RequestorName = usuario/cliente, País del cliente, 
              Tipo de petición, Categoría de la ayuda, Status = Cerrado o abierto, Prioridad
 - Tickets_cierre: ID de los tickets, Fecha de Cierre, OwnerName = Trabajador encargado, Status (Cerrado), Satisfacción del cliente, Nº días para cerrar.
