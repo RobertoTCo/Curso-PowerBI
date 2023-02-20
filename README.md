@@ -45,11 +45,12 @@ Haremos los siguientes pasos el día 1. Pero en caso de que necesitéis revisarl
 1. Esta tabla tiene formato internacional. Los decimales están separados por punto. Eliminamos tipo cambiado (panel a la derecha).
 2.	Filtramos `level` por "Estados" y `hpi_type` por "Tradicional". ¡Hay que seleccionar "Cargar más" antes de hacer el filtrado!
 3. Comprobamos si hay valores faltantes (NA, NULL o blanco en cada filtro de columna).
-4. Anulamos dinamización de las columnas `quarter_1`,`quarter_2`,`quarter_3` y `quarter_4`.
-5. Cambiamos nombres de las columnas `Atributo` por "Quarter", `Valor` por "Index".
-6. En la columna `Quarter` reemplazamos valores "quarter_" por "" (en blanco). Así nos quedamos solo con el número.
-7. Hay un NA escondido. En columna `Index` remplazamos valor "NA" por "" (en blanco). 
-8. Cambiar columna `Index` de texto a decimal. Cambiar tipo -> Usar configuración regional -> Seleccionar "Inglés (Estados Unidos)".
+4. Movemos la columna `quarter_1` (arrastramos) para situarla antes que `quarter_2`.
+5. Anulamos dinamización de las columnas `quarter_1`,`quarter_2`,`quarter_3` y `quarter_4`.
+6. Cambiamos nombres de las columnas `Atributo` por "Quarter", `Valor` por "Index".
+7. En la columna `Quarter` reemplazamos valores "quarter_" por "" (en blanco). Así nos quedamos solo con el número.
+8. Hay un NA escondido. En columna `Index` remplazamos valor "NA" por "" (en blanco). 
+9. Cambiar columna `Index` de texto a decimal. Cambiar tipo -> Usar configuración regional -> Seleccionar "Inglés (Estados Unidos)".
 
 ### Editar consulta por errores
 
