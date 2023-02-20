@@ -70,15 +70,15 @@ Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.power
 
 3. ¡Cuidado con la variable género!. Está codificada. 0: Male, 1: Female
 
-4. Para mostrar los días que han pasado desde que se abrió un ticket (Days Open) podeís crear una nueva columna
+4. Para mostrar los días que han pasado desde que se abrió un ticket (`Days Open`) podeís crear una nueva columna
    con el siguiente código: " Date.From(DateTime.LocalNow()) - [OpenDate]"  (Columna OpenDate->Insertar). 
  Lo veremos juntos!
  
  5. Para crear el gráfico de área con tickets cerrados y abiertos hay que crear dos medidas rápidas. 
  
-     a. Closed: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Closed)
+     a. Closed: Medida rápida -> Cálculo -> Valor filtrado: Valor base = `TicketsID` (Recuento), Filtro = `Status` (Closed)
   
-     b. Open: Medida rápida -> Cálculo -> Valor filtrado: Valor base = TicketsID (Recuento), Filtro = Status (Open y Closed)
+     b. Open: Medida rápida -> Cálculo -> Valor filtrado: Valor base = `TicketsID` (Recuento), Filtro = `Status` (Open y Closed)
  
  Lo veremos juntos!
 
