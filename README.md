@@ -22,6 +22,12 @@ datos en un .csv en la carpeta Ejercicio 1 de este repositorio.
 2. Haréis de manera autónoma un ejercicio para preparar una dashboard. Podéis encontrar 3 tablas en el archivo
 .xlsx en la carpeta Ejercicio 2 de este repositorio. A continuación tenéis algunos consejos para el ejercicio.
 
+## Instalación PowerBI Desktop
+
+La aplicación de escritorio se puede descargar de manera gratuita en <a href="https://powerbi.microsoft.com/es-es/desktop/">la página oficial de PowerBI</a>.
+Recomendable instalarlo en español (los nombres de los elementos y objetos cambian). El curso está preparado en español.
+
+
 ## Ejercicio 1
 
 Podéis encontrar el archivo .csv "HPI_editado" que usaremos en la carpeta `Ejercicio 1`. 
