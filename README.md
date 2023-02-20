@@ -1,7 +1,10 @@
 # Curso-PowerBI
 Datos, Ejercicios y Presentación Curso PowerBI Dextro
 
-¡Bienvenidos! Los dos días de formación se dividirán en lo siguiente:
+¡Bienvenidos! En este repositorio podéis encontrar un .doc con el contenido formativo del curso. También
+disponéis de la presentación que se usará para comenzar el curso.
+
+Los dos días de formación se dividirán en lo siguiente:
 
 ## Martes 21/02
 
