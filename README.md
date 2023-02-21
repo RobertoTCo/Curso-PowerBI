@@ -60,6 +60,10 @@ Haremos los siguientes pasos el día 1. Pero en caso de que necesitéis revisarl
 
 2. En `HPI_flavor` filtrar por "purchase-only".
 
+### Crear nuevas columnas en la query
+1. Creamos columna "Year - Q" seleccionando ambas columnas, y en la pestaña "Agregar columna" buscamos "Combinar columna".
+   En "separador" podemos elegir Personalizada y escribir " - ". En nombre escribimos "Year - Q".
+
 
 ## Consejos Ejercicio 2.
 
