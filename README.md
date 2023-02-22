@@ -27,6 +27,16 @@ datos en un .csv en la carpeta Ejercicio 1 de este repositorio.
 La aplicación de escritorio se puede descargar de manera gratuita en <a href="https://powerbi.microsoft.com/es-es/desktop/">la página oficial de PowerBI</a>.
 Recomendable instalarlo en español (los nombres de los elementos y objetos cambian). El curso está preparado en español.
 
+## Tipos de acceso a datos
+
+### 1. Importar datos
+PowerBI carga los datos desde la fuente (local o remota) y convierte en un dataset que se guarda en el modelo.
+
+Para mostrar cambios en los datos originales, requiere actualizar los datos desde el modelo de PowerBI (Tabla -> Actualizar datos). 
+También se puede especificar un calendario de actualizaciones periodicas.
+
+Importante: Cuando se actualiza los datos, se está creando 2 copias del mismo dataset (mucho consumo!). PowerBI mantiene la copia antigua para queries y distintas acciones que trabajan con el dataset. Esta copia no se elimina hasta que no se termina la actualización.
+
 
 ## Ejercicio 1
 
