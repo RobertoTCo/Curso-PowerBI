@@ -30,6 +30,7 @@ Recomendable instalarlo en español (los nombres de los elementos y objetos camb
 ## Tipos de acceso a datos
 
 ### 1. Importar datos
+
 PowerBI carga los datos desde la fuente (local o remota) y convierte en un dataset que se guarda en el modelo.
 
 Para mostrar cambios en los datos originales, requiere actualizar los datos desde el modelo de PowerBI (Tabla -> Actualizar datos). 
@@ -37,7 +38,21 @@ También se puede especificar un calendario de actualizaciones periodicas.
 
 Importante: Cuando se actualiza los datos, se está creando 2 copias del mismo dataset (mucho consumo!). PowerBI mantiene la copia antigua para queries y distintas acciones que trabajan con el dataset. Esta copia no se elimina hasta que no se termina la actualización.
 
-Más información en: <a href="https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data">la ayuda oficial de PowerBI sobre conexiones a datos</a>.
+### 2. Conexiones a demanda
+
+DirectQuery mode: Realiza peticiones a la fuente de datos cada vez que se trabaja o accede al informe o tiles asociados.
+
+LiveConection: Carga un dataset ya preparado y almacenado, ya sea un dataset en PowerBI Service, Azure Analysis Services (AAS) database o on-premises instance of SQL Server Analysis Services (SSAS).
+Push: 
+
+
+### 3. Push datasets
+
+Otra opción es requerir que el modelo PowerBI acepte un dataset mediante un push en vez de realizar una petición desde el modelo. Cada vez que se realiza un nuevo push, el dataset del modeo se actualiza. Útil para informes con información en tiempo real. Ejemplo de aplicaciones: Azure Stream Analytics.
+
+
+Más información en: <a href="https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data">la ayuda oficial de PowerBI sobre conexiones a datos</a> y en <a href="https://learn.microsoft.com/en-us/power-bi/connect-data/service-live-connect-dq-datasets">Live connection and DirectQuery comparison</a>.
+
 <table>
 <thead>
 <tr>
