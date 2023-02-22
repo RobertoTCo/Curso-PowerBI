@@ -167,4 +167,6 @@ Podéis encontrar el ejemplo del ejercicio 2 en <a href="https://community.power
      b. Open: Medida rápida -> Cálculo -> Valor filtrado: Valor base = `TicketsID` (Recuento), Filtro = `Status` (Open y Closed)
  
  Lo veremos juntos!
+ 
+ 6. Microsoft borró el objeto visual de histograma a finales de 2022 y no se puede usar. No haremos ese visual.
 
