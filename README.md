@@ -37,6 +37,52 @@ También se puede especificar un calendario de actualizaciones periodicas.
 
 Importante: Cuando se actualiza los datos, se está creando 2 copias del mismo dataset (mucho consumo!). PowerBI mantiene la copia antigua para queries y distintas acciones que trabajan con el dataset. Esta copia no se elimina hasta que no se termina la actualización.
 
+<table>
+<thead>
+<tr>
+<th>Storage mode</th>
+<th>Data refresh</th>
+<th>OneDrive refresh</th>
+<th>Query caches</th>
+<th>Tile refresh</th>
+<th>Report visuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Import</td>
+<td>Scheduled and on-demand</td>
+<td>Yes, for connected datasets</td>
+<td>If enabled on Premium capacity</td>
+<td>Automatically and on-demand</td>
+<td>No</td>
+</tr>
+<tr>
+<td>DirectQuery</td>
+<td>Not applicable</td>
+<td>Yes, for connected datasets</td>
+<td>If enabled on Premium capacity</td>
+<td>Automatically and on-demand</td>
+<td>No</td>
+</tr>
+<tr>
+<td>LiveConnect</td>
+<td>Not applicable</td>
+<td>Yes, for connected datasets</td>
+<td>If enabled on Premium capacity</td>
+<td>Automatically and on-demand</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Push</td>
+<td>Not applicable</td>
+<td>Not applicable</td>
+<td>Not practical</td>
+<td>Automatically and on-demand</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
 
 ## Ejercicio 1
 
