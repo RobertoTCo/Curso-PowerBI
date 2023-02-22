@@ -37,6 +37,7 @@ También se puede especificar un calendario de actualizaciones periodicas.
 
 Importante: Cuando se actualiza los datos, se está creando 2 copias del mismo dataset (mucho consumo!). PowerBI mantiene la copia antigua para queries y distintas acciones que trabajan con el dataset. Esta copia no se elimina hasta que no se termina la actualización.
 
+Más información en: a href="[https://powerbi.microsoft.com/es-es/desktop/](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data)">la ayuda oficial de PowerBI sobre conexiones a datos</a>.
 <table>
 <thead>
 <tr>
